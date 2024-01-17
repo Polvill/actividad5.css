@@ -1,0 +1,64 @@
+.cancion{
+    display: inline-block;
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.8);
+    box-shadow: 4px 4px 20px 0px #000000cc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+body{
+    font-family: 'Lato', sans-serif;;
+}
+
+h1{
+    background-color: #8bc34a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    color: #8bc34a;
+    padding: 10px;
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+img{
+    margin: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+.boton-play-pause{
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    text-decoration: none;
+    color: white;
+    background-color: #8bc34a;
+    font-weight: bold;
+    border-top: 10px;
+    padding: 10px;
+}
+
+.artista{
+    position: absolute;
+    font-weight: bold;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    border-top: solid 2px black;
+}
+
